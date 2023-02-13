@@ -8,7 +8,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
 
     const previousBalanceTotal = getTextElementValueByID('balance-total');
 
-    if(isNaN(newWithdraw)){
+    if(isNaN(inputWithdraw)){
         return;
     }
 
